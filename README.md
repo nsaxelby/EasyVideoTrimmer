@@ -18,7 +18,7 @@ Simple, quick, video trimmer / converter GUI application. Load your video clip, 
 
 ### Code/Solution
 
-I will initially target .net 5.0 because it is the new unified platform that Microsoft is on the journey towards and I have not yet built a project using it, however if there are library issues I may need to revert to .net framework.
+I will initially target .net 5.0 ( or .net 6.0 preview because of MAUI ) because it is the new unified platform that Microsoft is on the journey towards and I have not yet built a project using it, however if there are library issues I may need to revert to .net framework.
 
 ### Transcode/Convert/Trimming library
 
@@ -28,4 +28,4 @@ How the FFMPEG library integrates into the application is currently unknown and 
 
 ## Targetting Framework
 
-Most of my easy video trimmer needs are for Windows OS, so I will primarily be building the application to target a Windows OS.
+Most of my easy video trimmer needs are for Windows OS, so I will primarily be building the application to target a Windows OS. Although if the opportunity arises, I will see what I can do to target more than one platform ( sometimes I use Mac for trimming videos ).
